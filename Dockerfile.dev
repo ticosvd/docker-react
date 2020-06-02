@@ -8,3 +8,7 @@ RUN npm install
 COPY . .
 
 CMD ["npm","run","start"]
+
+
+# access_key_id: $AWS_ACCESS_KEY
+# secret_access_key: $AWS_SECRET_KEY
